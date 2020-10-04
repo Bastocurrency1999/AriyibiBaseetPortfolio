@@ -1,0 +1,12 @@
+body{
+    background:black;
+}
+iframe{
+    border:hidden;
+    display:block;
+    margin:0px auto;
+    width:50%;
+    height:100vh;
+    padding:0;
+    background:transparent;
+}

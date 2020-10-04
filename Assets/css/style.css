@@ -1,0 +1,476 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+	margin:0;
+	padding:0;
+	background-image:url('../images/backgroundImg.jpg');
+	/* background-image:url('../images/coffee-2425303.jpg'); */
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+*{
+	font-family:poppins;
+	box-sizing:border-box;
+}
+
+/* styling for navbar starts */
+#navigation-bar{
+	position:sticky;
+	top:0%;
+}
+a.nav-link{
+	font-size:20px;
+	margin:0px 5px;
+}
+/* Ends */
+
+/* styling for the landing section starts */
+#landing-section{
+	width:100%;
+	height:90vh;
+	background:transparent;
+	display:flex;
+}
+#landing-section .intro-wrapper{
+	padding-top:50px;
+	padding-left:100px;
+	border:hidden;
+	width:60%;
+}
+#landing-section .intro-wrapper h1{
+	color:#edb879;
+	font-weight:bold;
+	font-size:4.5rem;
+	line-height:70px;
+}
+#landing-section .intro-wrapper h1 .hello{
+	color:#edb879;
+	font-size:28px;
+	font-weight:300;
+}
+#landing-section .intro-wrapper h1 .dev{
+	color:#edb879;
+	font-size:28px;
+	font-style:italic;
+	font-weight:300;
+	line-height:30px;
+	display:block;
+	color:white;
+}
+#landing-section .intro-wrapper .button-wrapper{
+	width:70%;
+	border:hidden;
+}
+#landing-section .intro-wrapper .button-wrapper button{
+	width:35%;
+	font-size:18px;
+	padding:10px;
+	border:none;
+	border-radius:5px;
+	/* background:#edb879; */
+	background:#fff;
+	/* color:#edb879; */
+}
+#landing-section .intro-wrapper .button-wrapper button:hover{
+	background:darkblue;
+	color:#fff;
+	transition:600ms ease;
+}
+#landing-section .image-wrapper{
+	border:hidden;
+	border-left:2px solid rgba(255, 255, 255, .7);
+	width:40%;
+	/* padding:40px; */
+}
+section.social-links{
+	border:hidden;
+	width:400px;
+	height:70px;
+	display:flex;
+}
+/* section.social-links .icon {
+	border:2px solid black;
+	width:70px;
+	margin:10px;
+} */
+section.social-links a i{
+	font-size:35px;
+	text-align:center;
+	border:hidden;
+	padding:15px;
+	margin:5px;
+	border-radius:50%;
+	color:darkblue;
+	background:#fff;
+}
+section.social-links a i:hover{
+	background:darkblue;
+	color:white;
+	transition:600ms ease-in;
+}
+#landing-section .image-wrapper img{
+	width:100%;
+	height:100%;
+}
+/* Ends */
+
+/* styling for the about section starts */
+#about-section{
+	width:100%;
+	height:180vh;
+	background:black;
+	padding-top:70px;
+}
+#about-section>.heading h1{
+	color:#edb879;
+	text-align:center;
+	font-weight:bold;
+}
+hr.under{
+	border:2px solid rgba(255, 255, 255, .7);
+	width:10%;
+}
+#about-section .about-me-wrapper{
+	width:100%;
+	display:flex;
+}
+#about-section .about-me-wrapper .about-image-wrapper{
+	border:hidden;
+	border-right:2px solid rgba(255, 255, 255, .7);
+	width:40%;
+	height:520px;
+}
+#about-section .about-me-wrapper .about-image-wrapper img{
+	width:100%;
+	height:100%;
+}
+#about-section .about-me-wrapper .about-me{
+	border:hidden;
+	width:60%;
+	padding:20px 10px;
+}
+#about-section .about-me-wrapper .about-me h1{
+	color:rgba(255, 255, 255, .7);
+	text-align:center;
+}
+#about-section .about-me-wrapper .about-me hr{
+	border:1px solid rgba(255, 255, 255, .7);
+	width:80%;
+}
+#about-section .about-me-wrapper .about-me table{
+	width:80%;
+	border:hidden;
+	margin:auto;
+}
+#about-section .about-me-wrapper .about-me table th{
+	font-size:22px;
+	/* color:rgba(255, 255, 255,.8); */
+	color:#edb879;
+	font-weight:510;
+}
+#about-section .about-me-wrapper .about-me table td{
+	font-size:22px;
+	color:rgba(255, 255, 255,.8);
+}
+#about-section .about-me-wrapper .about-me h3{
+	font-size:20px;
+	text-align:justify;
+	border:hidden;
+	padding:0px 20px;
+	color:rgba(255, 255, 255,.8);
+}
+#about-section .about-me-wrapper .about-me h3 span{
+	color:#edb879;
+}
+#about-section .my-skills{
+	padding-top:40px;
+}
+#about-section .my-skills h1{
+	color:#edb879;
+	text-align:center;
+	font-weight:bold;
+}
+#about-section .my-skills .skills-wrapper{
+	border:hidden;
+	display:flex;
+	width:100%;
+	height:300px;
+}
+#about-section .my-skills .skills-wrapper .coding-skills{
+	border:hidden;
+	width:40%;
+	border-bottom:2px solid rgba(255, 255, 255, .7);
+}
+#about-section .my-skills .skills-wrapper .software-skills{
+	border:hidden;
+	border-left:2px solid rgba(255, 255, 255, .7);
+	border-bottom:2px solid rgba(255, 255, 255, .7);
+	width:60%;
+}
+#about-section .my-skills .skills-wrapper .heading{
+	border:hidden;
+	padding-top:10px;
+	padding-bottom:7px;
+	background:#edb879;
+}
+#about-section .my-skills .skills-wrapper .heading h1{
+	color:#fff;
+	font-size:25px;
+}
+#about-section .my-skills .skills-wrapper ul li{
+	list-style-type:none;
+	color:rgba(255, 255, 255,.8);
+	font-size:20px;
+}
+#about-section .my-skills .skills-wrapper ul li i {
+	color:#edb879;
+}
+/* Ends */
+
+
+/* styling for portfolio stars */
+#portfolio-section{
+	width:100%;
+	height:100vh;
+	background:black;
+	padding-top:65px;
+}
+#portfolio-section h1{
+	color:#edb879;
+	text-align:center;
+	font-weight:bold;
+}
+#portfolio-section p{
+	color:rgba(255, 255, 255,.8);
+	text-align:center;
+	font-size:22px;
+	display:block;
+	padding:0px 20px;
+}
+.row {
+	width:100%;
+	/* margin: 0 auto; */
+	padding:0;
+	display:flex;
+	justify-content:center;
+	/* flex-wrap: wrap; */
+  }
+  #one{
+	  background-image:url('../images/TIIDELabLogo.PNG');
+	  background-size:cover;
+  }
+  #two{
+	  background-image:url('../images/fortune.PNG');
+	  background-size:contain;
+	  background-repeat:no-repeat;
+  }
+  #three{
+	background-image:url('../images/glorious.png');
+	background-size:cover;
+}  
+#four{
+	background-image:url('../images/pace.png');
+	background-size:cover;
+}  
+  .box {
+	background-color: #00BCD4;
+	width:280px;
+	height:280px;
+	overflow: hidden;
+	margin:5px;
+  }
+.box .overlay-2 {
+	width: 100%;
+	height: 100%;
+	background-color: #edb879;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left:300px;
+	transition: margin-left 1s ease;
+  }
+  .box .overlay-2 .title h2{
+	font-size:25px;
+	color:#fff;
+	text-shadow:2px 2px 2px #000;
+  }
+  .box .overlay-2 .title a{
+	text-align:center;
+	text-decoration:none;
+}
+  .box .overlay-2 .title a i{
+	  font-size:40px;
+	  text-align:center;
+	  display:block;
+	  margin:auto;
+	  color:blue;
+}
+.box .overlay-2 .title a i:hover{
+	color:black;
+	transition:500ms ease-in-out;
+}
+  
+  .box:hover .overlay-2 {
+	 margin-left: 0%;
+  }
+/* Ends */
+
+/* styling for testimonies starts */
+/* testimonies section start */
+.testimonies-section{
+    border:hidden;
+}
+.testimonies-section .heading{
+    border:hidden;
+    margin-top:40px;
+}
+.testimonies-section .heading h1{
+    font-family:Battlestar;
+/*    font-family: 'Righteous', cursive;*/
+    letter-spacing:2px;
+    color:lightgray;
+    font-size:2vw;
+    text-transform:uppercase;
+    text-align:center;
+    text-shadow:5px 5px 5px black;     
+}
+.testimonies-section .testimonies{
+    border:hidden;
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.testimonies-section .testimonies .testimonies-image{
+    border:hidden;
+    width:260px;
+    height:400px;
+    margin:20px 20px;
+    display:flex;
+    flex-direction:column;
+}
+.testimonies-section .testimonies .testimonies-image a img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    display:block;
+    box-shadow:3px 4px 20px white;
+}
+.testimonies-section .testimonies .testimonies-image .image{
+    border:hidden;
+    height:250px;
+}
+.testimonies-section .testimonies .testimonies-image .testimonies-text{
+    border:hidden;
+    height:150px;
+    padding:4px;
+    overflow:hidden;
+}
+.testimonies-section .testimonies .testimonies-image .testimonies-text p{
+    /*font-family:monospace;*/
+    color:white;
+    text-align:justify;
+    font-size:15px;
+    font-weight:bold;
+}
+/* Ends */
+
+
+/* styling for contact section starts */
+#contact-section{
+	width:100%;
+	height:130vh;
+	background:black;
+}
+#contact-section h1{
+	color:#edb879;
+	text-align:center;
+	font-weight:bold;
+}
+#contact-section table{
+	border:hidden;
+	width:40%;
+	margin:20px auto;
+}
+#contact-section table input{
+	width:100%;
+	font-size:20px;
+	padding:10px;
+	outline:none;
+	border:2px solid white;
+}
+#contact-section table input:focus{
+	background:transparent;
+	color:#edb879;
+	border:2px solid #edb879;
+	transition:800ms ease-in-out;
+}
+#contact-section table textarea{
+	width:100%;
+	height:150px;
+	border:2px solid white;
+	outline:none;
+}
+#contact-section table textarea:focus{
+	background:transparent;
+	color:#edb879;
+	border:2px solid #edb879;
+	transition:800ms ease-in-out;
+}
+#contact-section table button{
+	width:40%;
+	font-size:20px;
+	padding:7px;
+	border:2px solid #edb879;
+	background:#edb879;
+}
+#contact-section table button:hover{
+	border:2px solid #edb879;
+	color:#edb879;
+	background:black;
+	transition:600ms ease-in-out;
+}
+/* Newsletter starts */
+.thumbnail h2{
+	color:#edb879;
+	font-size:30px;
+}
+.thumbnail p{
+	color:rgba(255, 255, 255,.8);
+	font-size:20px;
+}
+.thumbnail input{
+	width:80%;
+	font-size:20px;
+	outline:none;
+}
+.thumbnail input:focus{
+	background:transparent;
+	color:#edb879;
+	border:2px solid #edb879;
+	transition:800ms ease-in-out;
+}
+.thumbnail button{
+	width:60%;
+	color:#edb879;
+	border:2px solid white;
+	background:transparent;
+	border: 2px solid #edb879;
+	font-size:20px;
+}
+.thumbnail button:hover{
+	background:rgba(255, 255, 255,.2);
+	color:#edb879;
+	transition:800ms ease-in-out;
+}
+/* Ends */
+
+/* Footer section start */
+.footer-copyright{
+	border-top:2px solid rgba(255, 255, 255,.8);
+	background:black;
+	color:white;
+}
+/* Ends */
+/* Ends */
