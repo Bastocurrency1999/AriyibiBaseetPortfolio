@@ -4,7 +4,7 @@ html{
 body{
 	margin:0;
 	padding:0;
-	background-image:url('../images/backgroundImg.jpg');
+	background-image:url('../images/bg/backgroundImg.jpg');
 	/* background-image:url('../images/coffee-2425303.jpg'); */
 	background-size:contain;
 	background-repeat:no-repeat;
