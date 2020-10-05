@@ -68,9 +68,8 @@ a.nav-link{
 	padding:10px;
 	border:none;
 	border-radius:5px;
-	/* background:#edb879; */
 	background:#fff;
-	/* color:#edb879; */
+	outline:none;
 }
 #landing-section .intro-wrapper .button-wrapper button.resume{
 	width:54%;
@@ -78,9 +77,8 @@ a.nav-link{
 	padding:10px;
 	border:none;
 	border-radius:5px;
-	/* background:#edb879; */
+	outline:none;
 	background:#fff;
-	/* color:#edb879; */
 }
 #landing-section .intro-wrapper .button-wrapper button:hover{
 	background:darkblue;
