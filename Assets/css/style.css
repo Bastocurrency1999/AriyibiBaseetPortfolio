@@ -265,20 +265,20 @@ hr.under{
 	/* flex-wrap: wrap; */
   }
   #one{
-	  background-image:url('../images/TIIDELabLogo.PNG');
+	  background-image:url('../images/portfolio/TIIDELabLogo.PNG');
 	  background-size:cover;
   }
   #two{
-	  background-image:url('../images/fortune.PNG');
+	  background-image:url('../images/portfolio/fortune.PNG');
 	  background-size:contain;
 	  background-repeat:no-repeat;
   }
   #three{
-	background-image:url('../images/glorious.png');
+	background-image:url('../images/portfolio/glorious.png');
 	background-size:cover;
 }  
 #four{
-	background-image:url('../images/pace.png');
+	background-image:url('../images/portfolio/pace.png');
 	background-size:cover;
 }  
   .box {
